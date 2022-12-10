@@ -1,10 +1,15 @@
-import Head from 'next/head'
+import Script from 'next/script';
+import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+      <script src="libraries/p5.js"></script>
+		<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+		<script src="sketch.js"></script>
+
         <title>ml5 - 01</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
