@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <script src="libraries/p5.js"></script>
-		<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
-		<script src="sketch.js"></script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" />
+		  <Script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" />
+		  <Script src="sketch.js" />
 
         <title>ml5 - 01</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,15 +20,15 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          <code>Get started by editing code</code>
+          <code>Get started with ML</code>
         </p>
 
         <div className={styles.grid}>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <p className={styles.description}>
+            <h3>&rarr; &rarr;</h3>
+            <p>&rarr;</p>
+          </p>
 
         </div>
       </main>
