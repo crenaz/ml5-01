@@ -14,3 +14,4 @@ function draw(){
 	background(200);
 	text(ml5.version, width/2, height/2);
 }
+console.log('test');
