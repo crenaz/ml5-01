@@ -26,7 +26,7 @@ export default function Home() {
         <div className={styles.grid}>
 
           <p className={styles.description}>
-            <h3>&rarr; &rarr;</h3>
+            <h3>&rarr;</h3>
             <p>&rarr;</p>
           </p>
 
